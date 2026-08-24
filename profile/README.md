@@ -5,18 +5,25 @@
 [![Web Client](https://img.shields.io/badge/web%20client-open%20source-2EA44F?logo=github&logoColor=white)](https://github.com/ludwise/ludwise-web)
 ![Development](https://img.shields.io/badge/status-active%20development-F59E0B)
 
-**Discover PC games, compare trusted storefronts, and understand whether a deal is actually good.**
+Transparent PC game store comparison and discovery.
 
-LUDWISE is building a simple, trusted way to compare PC game offers, prices, price history, and upcoming releases without unnecessary complexity.
+LUDWISE compares what a game costs across stores, in the market you actually buy
+in, and says where each figure came from and when it was last checked.
 
-## 🧭 Repositories
+## Repositories
 
-- **[ludwise-web](https://github.com/ludwise/ludwise-web)** — public web client
-- **Backend & infrastructure** — kept private
+| Repository | What it is |
+| --- | --- |
+| [ludwise-web](https://github.com/ludwise/ludwise-web) | The web client. Public. |
+| ludwise-backend | The catalogue, provider integrations and operations. Private. |
 
-## 🌐 Links
+The web client is being extracted from the private repository a slice at a time,
+so `ludwise-web` is empty until that work lands.
 
-- **Website:** [ludwise.com](https://ludwise.com)
-- **GitHub:** [github.com/ludwise](https://github.com/ludwise)
+The backend API is internal. It is not documented or supported for use outside
+the web client, and it may change without notice.
 
-> LUDWISE is under active development.
+## Reporting a security issue
+
+Email **git@danielkindl.dev** with `SECURITY` in the subject line. Please do not
+open a public issue for a vulnerability.
