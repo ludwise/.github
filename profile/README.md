@@ -23,7 +23,18 @@ so `ludwise-web` is empty until that work lands.
 The backend API is internal. It is not documented or supported for use outside
 the web client, and it may change without notice.
 
+## Contact
+
+| Purpose | Email |
+| --- | --- |
+| General | [hello@ludwise.com](mailto:hello@ludwise.com) |
+| Support | [support@ludwise.com](mailto:support@ludwise.com) |
+| Security | [security@ludwise.com](mailto:security@ludwise.com) |
+| Privacy | [privacy@ludwise.com](mailto:privacy@ludwise.com) |
+| Legal | [legal@ludwise.com](mailto:legal@ludwise.com) |
+| Partnerships | [partners@ludwise.com](mailto:partners@ludwise.com) |
+
 ## Reporting a security issue
 
-Email **git@danielkindl.dev** with `SECURITY` in the subject line. Please do not
+Email **security@ludwise.com** with `SECURITY` in the subject line. Please do not
 open a public issue for a vulnerability.

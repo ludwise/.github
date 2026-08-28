@@ -5,7 +5,7 @@ This file is the organisation-wide fallback. A repository with its own
 
 ## Reporting a vulnerability
 
-Email **git@danielkindl.dev** with `SECURITY` in the subject line. Do not open a
+Email **security@ludwise.com** with `SECURITY` in the subject line. Do not open a
 public issue.
 
 Include what you found, how to reproduce it, and what an attacker could do with
