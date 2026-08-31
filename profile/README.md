@@ -20,6 +20,12 @@ The goal is to make game discovery and price comparison clear and easy to use.
 - Find games with a simple interface.
 - Affiliate relationships do not change rankings, recommendations, or prices.
 
+## Trusted stores
+
+LUDWISE compares offers from direct stores and authorized PC game retailers.
+
+LUDWISE does not include unauthorized key resellers or account marketplaces.
+
 ## Principles
 
 LUDWISE uses these principles:
