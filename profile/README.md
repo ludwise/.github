@@ -6,43 +6,41 @@
 
 Transparent PC game store comparison and discovery.
 
-LUDWISE helps you discover PC games, compare prices across trusted stores, and
-understand where each price comes from and when it was last checked.
+LUDWISE helps you find PC games and compare prices from trusted stores. It shows
+the source of each price and the time when it last checked the price.
 
-The goal is simple: make game discovery and price comparison clear, trustworthy,
-and easy to use.
+The goal is to make game discovery and price comparison clear and easy to use.
 
 ## Why LUDWISE?
 
 - Compare prices from trusted PC game stores.
-- See where pricing and game information comes from.
-- Get results relevant to your market and currency.
-- Know when pricing data was last checked.
-- Discover games without unnecessary complexity.
-- Affiliate relationships never influence rankings, recommendations, or prices.
+- See the source of price and game data.
+- Get results for your market and currency.
+- See when LUDWISE last checked the price data.
+- Find games with a simple interface.
+- Affiliate relationships do not change rankings, recommendations, or prices.
 
 ## Principles
 
-LUDWISE is built around a few simple principles:
+LUDWISE uses these principles:
 
 **Transparency**  
-Important data should have clear provenance and freshness.
+LUDWISE shows the source and age of important data.
 
 **Independence**  
-Commercial relationships must not influence how games, stores, or offers are
-ranked.
+Commercial relationships do not change how LUDWISE ranks games, stores, or
+offers.
 
 **Privacy**  
-Collect only what is useful for improving the product and providing features
-people choose to use.
+LUDWISE collects only data that it needs to operate the product, improve the
+product, or provide features that you choose to use.
 
 **Simplicity**  
-Core functionality should be easy to use without unnecessary configuration or
-clutter.
+Core functions must be easy to use. LUDWISE adds controls or settings only when
+they are necessary.
 
 **Open access**  
-Core game discovery and price comparison should remain available without
-requiring an account.
+You can use core game discovery and price comparison without an account.
 
 ## Open source
 
@@ -54,9 +52,9 @@ Contributions, bug reports, and suggestions are welcome.
 
 ## Project status
 
-LUDWISE is currently under active development.
+LUDWISE is under active development.
 
-The public website is available at [ludwise.com](https://ludwise.com).
+The public website is [ludwise.com](https://ludwise.com).
 
 ## Contact
 
@@ -73,4 +71,4 @@ The public website is available at [ludwise.com](https://ludwise.com).
 
 Email **security@ludwise.com** with `SECURITY` in the subject line.
 
-Please do not open a public issue for a vulnerability.
+Do not open a public issue for a vulnerability.
