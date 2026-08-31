@@ -1,27 +1,66 @@
 # LUDWISE
 
-[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fludwise.com&up_message=operational&down_message=offline&label=ludwise.com&up_color=2EA44F&down_color=D73A49&logo=cloudflare&logoColor=white)](https://ludwise.com)
-[![Cloudflare Status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.cloudflarestatus.com%2Fapi%2Fv2%2Fstatus.json&query=%24.status.description&label=Cloudflare&logo=cloudflare&logoColor=white&color=F38020)](https://www.cloudflarestatus.com)
+[![Website](https://img.shields.io/badge/website-ludwise.com-2EA44F)](https://ludwise.com)
 [![Web Client](https://img.shields.io/badge/web%20client-open%20source-2EA44F?logo=github&logoColor=white)](https://github.com/ludwise/ludwise-web)
 ![Development](https://img.shields.io/badge/status-active%20development-F59E0B)
 
 Transparent PC game store comparison and discovery.
 
-LUDWISE compares what a game costs across stores, in the market you actually buy
-in, and says where each figure came from and when it was last checked.
+LUDWISE helps you find PC games and compare prices from trusted stores. It shows
+the source of each price and the time when it last checked the price.
 
-## Repositories
+The goal is to make game discovery and price comparison clear and easy to use.
 
-| Repository | What it is |
+## Why LUDWISE?
+
+- Compare prices from trusted PC game stores.
+- See the source of price and game data.
+- Get results for your market and currency.
+- See when LUDWISE last checked the price data.
+- Find games with a simple interface.
+- Affiliate relationships do not change rankings, recommendations, or prices.
+
+## Trusted stores
+
+LUDWISE compares offers from direct stores and authorized PC game retailers.
+
+LUDWISE does not include unauthorized key resellers or account marketplaces.
+
+## Principles
+
+LUDWISE uses these principles:
+
+**Transparency**  
+LUDWISE shows the source and age of important data.
+
+**Independence**  
+Commercial relationships do not change how LUDWISE ranks games, stores, or
+offers.
+
+**Privacy**  
+LUDWISE collects only data that it needs to operate the product, improve the
+product, or provide features that you choose to use.
+
+**Simplicity**  
+Core functions must be easy to use. LUDWISE adds controls or settings only when
+they are necessary.
+
+**Open access**  
+You can use core game discovery and price comparison without an account.
+
+## Open source
+
+| Repository | Description |
 | --- | --- |
-| [ludwise-web](https://github.com/ludwise/ludwise-web) | The web client. Public. |
-| ludwise-backend | The catalogue, provider integrations and operations. Private. |
+| [ludwise-web](https://github.com/ludwise/ludwise-web) | The open-source LUDWISE web client. |
 
-The web client is being extracted from the private repository a slice at a time,
-so `ludwise-web` is empty until that work lands.
+Contributions, bug reports, and suggestions are welcome.
 
-The backend API is internal. It is not documented or supported for use outside
-the web client, and it may change without notice.
+## Project status
+
+LUDWISE is under active development.
+
+The public website is [ludwise.com](https://ludwise.com).
 
 ## Contact
 
@@ -36,5 +75,6 @@ the web client, and it may change without notice.
 
 ## Reporting a security issue
 
-Email **security@ludwise.com** with `SECURITY` in the subject line. Please do not
-open a public issue for a vulnerability.
+Email **security@ludwise.com** with `SECURITY` in the subject line.
+
+Do not open a public issue for a vulnerability.

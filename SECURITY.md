@@ -1,20 +1,21 @@
 # Security policy
 
-This file is the organisation-wide fallback. A repository with its own
-`SECURITY.md` overrides it.
+This file is the organization-wide fallback. A repository can have its own
+`SECURITY.md`. If it does, use the repository file.
 
-## Reporting a vulnerability
+## Report a vulnerability
 
 Email **security@ludwise.com** with `SECURITY` in the subject line. Do not open a
 public issue.
 
-Include what you found, how to reproduce it, and what an attacker could do with
-it. If a request is involved, the `x-request-id` response header helps us find
-it in the logs.
+In your report, include what you found, the steps to reproduce it, and the
+possible effect. If an HTTP request is related to the problem, include the
+`x-request-id` response header. This ID helps us find the request in the logs.
 
-LUDWISE is maintained by one person, so there is no response-time guarantee. You
-will get an acknowledgement, and you will be told what happened to the report.
+LUDWISE is maintained by one person. We cannot guarantee a response time. We
+will acknowledge your report and tell you the result.
 
 ## Supported versions
 
-Whatever is currently deployed. There are no maintained older releases.
+This policy applies to the version that is currently deployed. We do not
+maintain older releases.

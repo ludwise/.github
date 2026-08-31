@@ -1,22 +1,34 @@
 # Contributing
 
-This file is the organisation-wide fallback. A repository with its own
-`CONTRIBUTING.md` overrides it, and
-[ludwise-web](https://github.com/ludwise/ludwise-web) does.
+This file is the organization-wide fallback. A repository can have its own
+`CONTRIBUTING.md`. If it does, use the repository file.
 
 ## Before you write code
 
-Open an issue first for anything beyond a typo or an obvious fix. It is quicker
-for both of us to agree on the approach than to review a branch built on a
-different one.
+For a change that is more than a typo or an obvious fix, open an issue first.
+Describe the problem and the proposed solution.
 
-## What a change needs
+## Change requirements
 
-- A test that fails without it, for any change in behaviour.
-- Conventional Commit messages — `feat:`, `fix:`, `docs:`, and so on.
-- Green CI. Do not disable a check to get there.
+- Add or update tests when behavior changes. The test must fail without the
+  change.
+- Use Conventional Commit messages, such as `feat:`, `fix:`, or `docs:`.
+- All required CI checks must pass. Do not disable a check to make the change
+  pass.
+- Explain why a new dependency is necessary. Also explain why the current
+  alternatives are not sufficient.
 
-## What is not accepted
+## Technical English
 
-Changes to the private backend, which is not public; and pull requests that add
-a dependency without saying why the alternative was worse.
+Use ASD-STE100 Simplified Technical English, Issue 9, for technical and
+engineering text.
+
+Use the same rules as the baseline for public and user-facing text. You can use
+more natural wording after the STE pass if this makes the text clearer and does
+not change its meaning.
+
+Use project terms consistently. Define a new technical term when its meaning is
+not clear from the context.
+
+ASD-STE100 Issue 9 is the source of truth if this summary and the standard are
+different.
