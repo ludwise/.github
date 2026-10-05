@@ -1,7 +1,6 @@
 # LUDWISE
 
 [![Website](https://img.shields.io/badge/website-ludwise.com-2EA44F)](https://ludwise.com)
-[![Web Client](https://img.shields.io/badge/web%20client-open%20source-2EA44F?logo=github&logoColor=white)](https://github.com/ludwise/ludwise-web)
 ![Development](https://img.shields.io/badge/status-active%20development-F59E0B)
 
 Transparent PC game store comparison and discovery.
@@ -48,13 +47,20 @@ they are necessary.
 **Open access**  
 You can use core game discovery and price comparison without an account.
 
-## Open source
+## Source
 
-| Repository | Description |
+The web client, backend, and operations Worker live in one private repository:
+[ludwise](https://github.com/ludwise/ludwise).
+
+| Path | Role |
 | --- | --- |
-| [ludwise-web](https://github.com/ludwise/ludwise-web) | The open-source LUDWISE web client. |
+| `apps/web` | Visitor site |
+| `apps/ops` | Operator interface |
+| `workers/backend` | Catalog, ingestion, and read contracts |
 
-Contributions, bug reports, and suggestions are welcome.
+`ludwise-web`, `ludwise-backend`, and `ludwise-ops` remain until deploys point
+at the monorepo. Already published `ludwise-web` commits stay under Apache-2.0.
+New work is private.
 
 ## Project status
 
