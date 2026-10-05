@@ -1,7 +1,6 @@
 # LUDWISE
 
 [![Website](https://img.shields.io/badge/website-ludwise.com-2EA44F)](https://ludwise.com)
-[![Web Client](https://img.shields.io/badge/web%20client-open%20source-2EA44F?logo=github&logoColor=white)](https://github.com/ludwise/ludwise-web)
 ![Development](https://img.shields.io/badge/status-active%20development-F59E0B)
 
 Transparent PC game store comparison and discovery.
@@ -47,14 +46,6 @@ they are necessary.
 
 **Open access**  
 You can use core game discovery and price comparison without an account.
-
-## Open source
-
-| Repository | Description |
-| --- | --- |
-| [ludwise-web](https://github.com/ludwise/ludwise-web) | The open-source LUDWISE web client. |
-
-Contributions, bug reports, and suggestions are welcome.
 
 ## Project status
 
